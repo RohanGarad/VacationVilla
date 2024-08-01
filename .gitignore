@@ -1,6 +1,3 @@
-node_modules/
-*.log
-.env
 * text=auto
 *.js text
 *.jsx text
