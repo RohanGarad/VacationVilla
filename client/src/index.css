@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"], input[type="password"], input[type="email"], textarea, input[type='Number'], input[type='tel']{
+    @apply w-full border my-2 py-2 px-3 rounded-3xl;
+}
+
+textarea{
+    height: 130px;
+}
+
+button{
+    @apply bg-gray-300;
+}
+
+button.primary{
+    background-color: '#F5385D';
+    @apply bg-primary mt-2 p-2 w-full text-white rounded-3xl hover:bg-red-500;
+}
+
+/* Add this to your global CSS file */
+
+body {
+    background-color: #1e2031; /* Dark background color */
+    color: #ffffff; /* White text color */
+    margin: 0;
+    padding: 0;
+  }
+  

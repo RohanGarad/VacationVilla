@@ -1,0 +1,13 @@
+node_modules/
+*.log
+.env
+* text=auto
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.css text
+*.scss text
+*.html text
+*.md text
